@@ -31,7 +31,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.7",
     "ts-node-dev": "^1.0.0-pre.63",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "yargs": "^16.0.3"
   },
   "devDependencies": {
     "@types/jest": "^25.2.3",
