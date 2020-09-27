@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "payments/**"
+
 jobs:
   build:
     runs-on: ubuntu-latest
