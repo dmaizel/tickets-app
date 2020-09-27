@@ -13,7 +13,6 @@ declare global {
 
 let mongo: any;
 beforeAll(async () => {
-  jest.setTimeout(60000);
   process.env.JWT_KEY = "asdfasdf";
   process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
